@@ -86,6 +86,12 @@
     border-bottom: 1px solid grey;
 }
 
+a.button {
+    color: inherit;
+    text-decoration: inherit;
+    color: red;
+}
+
 .div2 {
     width: 90%;
     height: 10%;
@@ -202,15 +208,7 @@
 }
 
 #arrow {
-    margin: 30px 450px;
-}
-
-#Back {
-    font-size: 28px;
-    font-weight: lighter;
-    margin-left: 500px;
-    margin-top: -65px;
-    opacity: 0.4;
+    margin: 20px 50px;
 }
 
 .item-card1 {
@@ -300,6 +298,10 @@
     .upper-container1 {
         width: 80%;
     }
+    #tasks {
+        font-weight: bold;
+        font-size: 40px;
+    }
     #addlist {
         display: none;
     }
@@ -307,7 +309,6 @@
         right: 40px;
     }
     .price-container {
-        margin-top: 0px;
         margin-bottom: 0px;
     }
     .div1 {
